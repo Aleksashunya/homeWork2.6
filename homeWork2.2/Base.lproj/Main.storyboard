@@ -121,8 +121,8 @@
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YyA-cU-AYj">
                                                 <rect key="frame" x="-2" y="150" width="171.33333333333334" height="27.666666666666657"/>
-                                                <imageReference key="minimumValueImage" image="drop" catalog="system" symbolScale="medium" renderingMode="original"/>
-                                                <imageReference key="maximumValueImage" image="drop.fill" catalog="system" symbolScale="medium" renderingMode="original"/>
+                                                <imageReference key="minimumValueImage" image="sun.min" catalog="system" symbolScale="medium" renderingMode="original"/>
+                                                <imageReference key="maximumValueImage" image="sun.min.fill" catalog="system" symbolScale="medium" renderingMode="original"/>
                                                 <color key="minimumTrackTintColor" red="0.98444777727127075" green="0.95304399728775024" blue="0.98456007242202759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="maximumTrackTintColor" red="0.81194335220000002" green="0.81129437689999995" blue="0.83529794219999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
@@ -167,8 +167,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="drop" catalog="system" width="101" height="128"/>
-        <image name="drop.fill" catalog="system" width="101" height="128"/>
+        <image name="sun.min" catalog="system" width="128" height="121"/>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
