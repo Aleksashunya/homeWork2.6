@@ -44,6 +44,5 @@ class ViewController: UIViewController {
         alphaLabel.text = String(format: "%.2f", alphaSlider.value)
         coloredView.backgroundColor = .init(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: CGFloat(alphaSlider.value))
     }
-    
 }
 
