@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A013572266A65E800C36AC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A013571266A65E800C36AC6 /* MainViewController.swift */; };
+		7A013576266B2FFD00C36AC6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A013575266B2FFD00C36AC6 /* Color.swift */; };
+		7A013578266BD18000C36AC6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A013577266BD18000C36AC6 /* Extensions.swift */; };
 		7A3CD3DE2657E63300F45EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CD3DD2657E63300F45EFC /* AppDelegate.swift */; };
 		7A3CD3E02657E63300F45EFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CD3DF2657E63300F45EFC /* SceneDelegate.swift */; };
-		7A3CD3E22657E63300F45EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CD3E12657E63300F45EFC /* ViewController.swift */; };
+		7A3CD3E22657E63300F45EFC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CD3E12657E63300F45EFC /* SettingsViewController.swift */; };
 		7A3CD3E52657E63300F45EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3CD3E32657E63300F45EFC /* Main.storyboard */; };
 		7A3CD3E72657E63400F45EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3CD3E62657E63400F45EFC /* Assets.xcassets */; };
 		7A3CD3EA2657E63400F45EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3CD3E82657E63400F45EFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A3CD3DA2657E63300F45EFC /* homeWork2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWork2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A013571266A65E800C36AC6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7A013575266B2FFD00C36AC6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7A013577266BD18000C36AC6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7A3CD3DA2657E63300F45EFC /* homeWork2.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWork2.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3CD3DD2657E63300F45EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A3CD3DF2657E63300F45EFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A3CD3E12657E63300F45EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A3CD3E12657E63300F45EFC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7A3CD3E42657E63300F45EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A3CD3E62657E63400F45EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3CD3E92657E63400F45EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,10 +43,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A013579266C974B00C36AC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A3CD3E12657E63300F45EFC /* SettingsViewController.swift */,
+				7A013571266A65E800C36AC6 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A01357A266C977300C36AC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A013575266B2FFD00C36AC6 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A01357B266C978600C36AC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7A3CD3E32657E63300F45EFC /* Main.storyboard */,
+				7A3CD3E82657E63400F45EFC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7A01357C266C97AF00C36AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A3CD3E62657E63400F45EFC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A01357D266C97D500C36AC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A013577266BD18000C36AC6 /* Extensions.swift */,
+				7A3CD3DF2657E63300F45EFC /* SceneDelegate.swift */,
+				7A3CD3DD2657E63300F45EFC /* AppDelegate.swift */,
+				7A3CD3EB2657E63400F45EFC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7A3CD3D12657E63300F45EFC = {
 			isa = PBXGroup;
 			children = (
-				7A3CD3DC2657E63300F45EFC /* homeWork2.2 */,
+				7A3CD3DC2657E63300F45EFC /* homeWork2.6 */,
 				7A3CD3DB2657E63300F45EFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +99,29 @@
 		7A3CD3DB2657E63300F45EFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A3CD3DA2657E63300F45EFC /* homeWork2.2.app */,
+				7A3CD3DA2657E63300F45EFC /* homeWork2.6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A3CD3DC2657E63300F45EFC /* homeWork2.2 */ = {
+		7A3CD3DC2657E63300F45EFC /* homeWork2.6 */ = {
 			isa = PBXGroup;
 			children = (
-				7A3CD3DD2657E63300F45EFC /* AppDelegate.swift */,
-				7A3CD3DF2657E63300F45EFC /* SceneDelegate.swift */,
-				7A3CD3E12657E63300F45EFC /* ViewController.swift */,
-				7A3CD3E32657E63300F45EFC /* Main.storyboard */,
-				7A3CD3E62657E63400F45EFC /* Assets.xcassets */,
-				7A3CD3E82657E63400F45EFC /* LaunchScreen.storyboard */,
-				7A3CD3EB2657E63400F45EFC /* Info.plist */,
+				7A01357B266C978600C36AC6 /* Storyboards */,
+				7A01357A266C977300C36AC6 /* Models */,
+				7A013579266C974B00C36AC6 /* ViewControllers */,
+				7A01357C266C97AF00C36AC6 /* Resources */,
+				7A01357D266C97D500C36AC6 /* Supporting Files */,
 			);
-			path = homeWork2.2;
+			path = homeWork2.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A3CD3D92657E63300F45EFC /* homeWork2.2 */ = {
+		7A3CD3D92657E63300F45EFC /* homeWork2.6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A3CD3EE2657E63400F45EFC /* Build configuration list for PBXNativeTarget "homeWork2.2" */;
+			buildConfigurationList = 7A3CD3EE2657E63400F45EFC /* Build configuration list for PBXNativeTarget "homeWork2.6" */;
 			buildPhases = (
 				7A3CD3D62657E63300F45EFC /* Sources */,
 				7A3CD3D72657E63300F45EFC /* Frameworks */,
@@ -82,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = homeWork2.2;
+			name = homeWork2.6;
 			productName = homeWork2.2;
-			productReference = 7A3CD3DA2657E63300F45EFC /* homeWork2.2.app */;
+			productReference = 7A3CD3DA2657E63300F45EFC /* homeWork2.6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A3CD3D52657E63300F45EFC /* Build configuration list for PBXProject "homeWork2.2" */;
+			buildConfigurationList = 7A3CD3D52657E63300F45EFC /* Build configuration list for PBXProject "homeWork2.6" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A3CD3D92657E63300F45EFC /* homeWork2.2 */,
+				7A3CD3D92657E63300F45EFC /* homeWork2.6 */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3CD3E22657E63300F45EFC /* ViewController.swift in Sources */,
+				7A3CD3E22657E63300F45EFC /* SettingsViewController.swift in Sources */,
+				7A013578266BD18000C36AC6 /* Extensions.swift in Sources */,
 				7A3CD3DE2657E63300F45EFC /* AppDelegate.swift in Sources */,
 				7A3CD3E02657E63300F45EFC /* SceneDelegate.swift in Sources */,
+				7A013576266B2FFD00C36AC6 /* Color.swift in Sources */,
+				7A013572266A65E800C36AC6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +340,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3726986L3;
-				INFOPLIST_FILE = homeWork2.2/Info.plist;
+				INFOPLIST_FILE = "homeWork2.6/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Melasha.homeWork2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = Melasha.homeWork2.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -308,13 +360,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3726986L3;
-				INFOPLIST_FILE = homeWork2.2/Info.plist;
+				INFOPLIST_FILE = "homeWork2.6/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Melasha.homeWork2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = Melasha.homeWork2.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -324,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A3CD3D52657E63300F45EFC /* Build configuration list for PBXProject "homeWork2.2" */ = {
+		7A3CD3D52657E63300F45EFC /* Build configuration list for PBXProject "homeWork2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A3CD3EC2657E63400F45EFC /* Debug */,
@@ -333,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A3CD3EE2657E63400F45EFC /* Build configuration list for PBXNativeTarget "homeWork2.2" */ = {
+		7A3CD3EE2657E63400F45EFC /* Build configuration list for PBXNativeTarget "homeWork2.6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A3CD3EF2657E63400F45EFC /* Debug */,
