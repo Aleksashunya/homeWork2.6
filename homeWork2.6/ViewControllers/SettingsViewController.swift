@@ -32,6 +32,8 @@ class SettingsViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.text = textField.text?.replacingOccurrences(of: ",", with: ".")
+        
         if Double(textField.text ?? "1") ?? 1 > 1 {
             textField.text = "1"
         }
